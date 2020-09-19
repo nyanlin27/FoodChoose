@@ -1,0 +1,31 @@
+body{
+  margin: 0px;
+  background-color: #138496;
+  font-size: 18px;
+}
+
+#panel{
+  margin-top: 50px;
+}
+h1{
+  text-align: center;
+}
+/* input label */
+label{
+  font-size: 20px;
+}
+#hr{
+  border: 1px solid red;
+}
+#list p{
+  color: red;
+  font-size: 20px;
+}
+#alert{
+  font-size: 25px;
+  text-align: center;
+}
+#footer_p{
+  font-size: 15px;
+  text-align: center;
+}
