@@ -1,13 +1,21 @@
 body{
   margin: 0px;
   background-color: #138496;
-  font-size: 18px;
+  font-size: 16px;
+}
+#nav-horizontal{
+    top:0;
+    left:0;
+	  position: fixed;
+    width:100%;    
+    box-shadow: 0 2px 2px #d3eae7;
+    z-index: 9999;
 }
 
 #panel{
-  margin-top: 50px;
+  margin-top: 70px;
 }
-h1{
+h3{
   text-align: center;
 }
 /* input label */
@@ -22,10 +30,21 @@ label{
   font-size: 20px;
 }
 #alert{
-  font-size: 25px;
+  font-size: 20px;
+  text-align: center;
+
+}
+
+/* About Style */
+#panel-font h1{
   text-align: center;
 }
+#panel-font p{
+  text-align: justify;
+}
+
+/* footer */
 #footer_p{
-  font-size: 15px;
   text-align: center;
+  color: red;
 }

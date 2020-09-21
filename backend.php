@@ -11,7 +11,7 @@
        $search_four = $_POST['search_four']; //name =search_four
 
        if (!empty($search_one && $search_two && $search_three && $search_four)) {
-         for ($i=0; $i < 15 ; $i++)
+         for ($i=0; $i < 100 ; $i++)
          {
            $a = 1;
            $b = 2;
@@ -24,11 +24,11 @@
                $bb++;
              }elseif ($result == $c) {
                $cc++;
-             }else {
+             }elseif ($result == $d) {
                $dd++;
              }
          }
        }else {
-         echo '<script>alert(" ! အစားအသောက်များကို ဖြည့်ပေးပါ။ !")</script>'; 
+         echo '<script>alert(" ! အစားအသောက်များကို ဖြည့်ပေးပါ။ !")</script>';
        }
      }
